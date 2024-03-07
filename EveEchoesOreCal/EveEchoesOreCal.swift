@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct iamrichswiftUIApp: App {
+struct EveEchoesOreCal: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
