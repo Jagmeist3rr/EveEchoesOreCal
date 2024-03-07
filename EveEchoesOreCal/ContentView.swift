@@ -86,12 +86,9 @@ struct ContentView: View {
                         .foregroundColor(.black)
                         .cornerRadius(25)
                         .frame(width: 100, alignment: .trailing)
+                        .multilineTextAlignment(.center)
                     
                 }.padding()
-                VStack{
-                    Text("Minerals Obtained: ")
-                }
-                Text("Calculation Placeholder")
                 Button("Calculate") {
                     
                     let oreStructToUse = oreDictSelection(oreName: selectedOre, oreType: oreType)
@@ -105,17 +102,27 @@ struct ContentView: View {
                     values = oreDictToUse.map {$0.value}
                     
                 }
-                .background(.black)
+                .background(.blue)
                 .foregroundColor(.white)
+                .cornerRadius(10)
+                .buttonStyle(.bordered)
                 .padding()
-                
                 
                 VStack {
                     List(Array(zip(keys, values)), id: \.self.0) { (keys, values) in
                         Text("\(keys): \(values)")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .multilineTextAlignment(.leading)
+                            .listRowBackground(Color.clear)
+                            .font(.title)
                     }
+                    
+                    .background(.clear)
                     .scrollContentBackground(.hidden)
+                    .foregroundColor(.white)
                 }
+                
                 Spacer()
             }
         }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C275EFF2A2599DF001DADC9 /* iamrichswiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C275EFE2A2599DF001DADC9 /* iamrichswiftUIApp.swift */; };
+		8C275EFF2A2599DF001DADC9 /* EveEchoesOreCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C275EFE2A2599DF001DADC9 /* EveEchoesOreCal.swift */; };
 		8C275F012A2599DF001DADC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C275F002A2599DF001DADC9 /* ContentView.swift */; };
 		8C275F032A2599E1001DADC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C275F022A2599E1001DADC9 /* Assets.xcassets */; };
 		8C275F062A2599E1001DADC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C275F052A2599E1001DADC9 /* Preview Assets.xcassets */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		8C275EFB2A2599DF001DADC9 /* EveEchoesOreCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveEchoesOreCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C275EFE2A2599DF001DADC9 /* iamrichswiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iamrichswiftUIApp.swift; sourceTree = "<group>"; };
+		8C275EFE2A2599DF001DADC9 /* EveEchoesOreCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveEchoesOreCal.swift; sourceTree = "<group>"; };
 		8C275F002A2599DF001DADC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C275F022A2599E1001DADC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C275F052A2599E1001DADC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		8C275EFD2A2599DF001DADC9 /* EveEchoesOreCal */ = {
 			isa = PBXGroup;
 			children = (
-				8C275EFE2A2599DF001DADC9 /* iamrichswiftUIApp.swift */,
+				8C275EFE2A2599DF001DADC9 /* EveEchoesOreCal.swift */,
 				8C275F002A2599DF001DADC9 /* ContentView.swift */,
 				8C275F282A26D218001DADC9 /* Ores.swift */,
 				8C275F2C2A27A39A001DADC9 /* PlayerLevelBrain.swift */,
@@ -146,7 +146,7 @@
 				8C275F2D2A27A39A001DADC9 /* PlayerLevelBrain.swift in Sources */,
 				8C275F012A2599DF001DADC9 /* ContentView.swift in Sources */,
 				8C275F292A26D218001DADC9 /* Ores.swift in Sources */,
-				8C275EFF2A2599DF001DADC9 /* iamrichswiftUIApp.swift in Sources */,
+				8C275EFF2A2599DF001DADC9 /* EveEchoesOreCal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
